@@ -1,0 +1,21 @@
+/*navigation container*/
+.navbar{
+	overflow: hidden;
+	background-color: #636e72;
+	font-family: Arial;
+}
+
+/*links inside the navigation bar*/
+.navbar a{
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*add a black background color to navbar links on hover*/
+.navbar a:hover, .dropdown:hover .dropbtn{
+	background-color: #dfe6e9;
+}
